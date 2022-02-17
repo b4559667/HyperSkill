@@ -34,7 +34,7 @@ def soup_sweet_soup(number_of_pages, type_of_articles):
                     title = title.replace(" ", "_")
             title = title + ".txt"
             path = os.path.join(
-                r'C:\\Users\\TheAnimeHunter2076\\PycharmProjects\\Web Scraper\\Web Scraper\\task\\Page_{}'.format(page),
+                r'path\\Page_{}'.format(page),
                 title)
             file = open(path, "w", encoding="utf-8")
             file.write(article_text.strip())

@@ -2,7 +2,7 @@ import requests
 
 from bs4 import BeautifulSoup
 
-# https://www.imdb.com/title/tt0318871/
+
 user_input = input("Enter URL: ")
 if user_input == 'https://www.imdb.com/title/tt0068646/':
     user_input = 'https://web.archive.org/web/20211101044320/https://www.imdb.com/title/tt0068646/'

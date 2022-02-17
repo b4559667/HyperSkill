@@ -17,9 +17,6 @@ class EasyRider:
         self.stops = []
 
     def create_message(self):
-        # print("Type and required field validation: {} errors".format(EasyRider.error_counter))
-        # for key, value in self.data_structure.items():
-        #     print(key + ":", value)
         tmp_list = []
         result = {}
         for list_ in self.stops:
